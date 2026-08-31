@@ -1,0 +1,15 @@
+@import "tailwindcss";
+@config "../tailwind.config.js";
+
+@theme {
+  --color-brand-dark: #0A0A0A;
+  --color-brand-purple: #8B5CF6;
+  --color-brand-light: #E2E8F0;
+  --color-brand-muted: #94A3B8;
+  --font-sans: Inter, sans-serif;
+  --font-heading: Montserrat, sans-serif;
+}
+
+body {
+  @apply bg-brand-dark text-brand-light font-sans antialiased;
+}
