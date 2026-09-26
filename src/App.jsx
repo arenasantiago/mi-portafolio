@@ -1,5 +1,6 @@
 import { motion } from 'framer-motion';
 import { ArrowRight, Mail, GitBranch, Link } from 'lucide-react';
+import Projects from './components/Projects';
 
 function App() {
   return (
@@ -85,6 +86,8 @@ function App() {
 
         </div>
       </main>
+
+      <Projects />
     </div>
   );
 }
